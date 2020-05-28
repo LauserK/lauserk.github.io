@@ -2,221 +2,199 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
-    <title>Kildare Lauser | Desarrollo Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kildare Lauser | Desarrollador Venezuela</title>
+    <link rel="stylesheet" href="./assets/styles/main.css" />
     <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
-      href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
     />
-    <link rel="stylesheet" href="/assets/css/materialize.css" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
-      <nav class="indigo darken-3">
-        <div class="nav-wrapper container">
-          <img
-            src="assets/img/logo.png"
-            class="brand-logo"
-            alt="Kildare Lauser Logo"
-          />
-          <a href="#" data-activates="responsive--menu" class="button-collapse"
-            ><i class="ion-navicon-round"></i
+      <div class="header__top">
+        <h1 class="header__title">Kildare Lauser</h1>
+        <nav class="header__nav">
+          <ul>
+            <li class="header__nav__option">
+              <a href="#showcase">Mis trabajos</a>
+            </li>
+            <li class="header__nav__option">
+              <a href="#aboutme">Acerca de mi</a>
+            </li>
+            <li class="header__nav__option">
+              <a href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__big">
+        <span class="header__tiny">Bienvenido a mi sitio web</span>
+        <h2 class="header__grand">Consigue la solución que tanto estabas buscando</h2>
+        <div class="header__buttons">
+          <a href="#showcase" class="button button--red button--uppercase"
+            >Ver mis trabajos</span
           ></a>
-          <ul class="right hide-on-med-and-down">
-            <li class="header__option"><a href="/">Home</a></li>
-            <li class="header__option"><a href="/sobre-mi">Sobre mí</a></li>
-            <li class="header__option"><a href="/servicios">Servicios</a></li>
-            <li class="header__option"><a href="/portfolio">Portfolio</a></li>
-            <li class="header__option">
-              <a href="https://medium.com/@LauserK">Blog</a>
-            </li>
-            <li class="header__option">
-              <a href="mailto:kildarealauser@gmail.com">Contacto</a>
-            </li>
-          </ul>
-          <ul class="side-nav" id="responsive--menu">
-            <li><a href="/">Home</a></li>
-            <li><a href="/sobre-mi">Sobre mí</a></li>
-            <li><a href="/servicios">Servicios</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="https://medium.com/@LauserK">Blog</a></li>
-            <li><a href="mailto:kildarealauser@gmail.com">Contacto</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <section
-      class="indigo white-text main__banner"
-      style="background-image: url(assets/img/banner.jpg)"
-    >
-      <div class="main__banner__content">
-        <h1>Consigue la web que tanto buscabas</h1>
-        <p>
-          Te ayudo a crear tu página web con las últimas tecnologías del mercado
-        </p>
-        <a class="btn btn-large indigo" href="#portfolio">Ver mi trabajo</a>
-      </div>
-    </section>
-
-    <section class="main__aboutme indigo white-text">
-      <h2 class="main__aboutme__title title__border">¿Quién Soy?</h2>
-      <div class="row container">
-        <div class="main__aboutme__image col s12 m6">
-          <figure>
-            <img
-              src="assets/img/cv.png"
-              alt="Kildare Lauser - Desarrollador Web en Venezuela"
-            />
-          </figure>
-        </div>
-        <div class="main__aboutme__content col s12 m6">
-          <p>
-            Soy <strong>Kildare Lauser</strong> un jóven
-            <strong>desarrollador web</strong> que vive en Venezuela, trabajo
-            con las últimas tecnologías del mercado como HTML5/CSS3,
-            Python/Django y JavaScript/Node.js
-          </p>
-          <a class="btn btn-large orange" href="sobre-mi.html" rel="nofollow"
-            >Leer más sobre mí</a
-          >
-        </div>
-      </div>
-    </section>
-
-    <section class="main__servicios indigo lighten-5">
-      <div class="row container">
-        <h2 class="main__servicios__title title__border">Te puedo ayudar</h2>
-
-        <article class="servicios__item col s12 m6 l3">
-          <header class="servicios__item__header">
-            <i class="ion-android-desktop"></i>
-          </header>
-          <div class="servicios__item__content">
-            <h3>Desarrollo de Páginas Web</h3>
-            <p>
-              Me encargo de crear tu sitio para negocios, empresas, comercios,
-              profesionales, etc.
-            </p>
-          </div>
-        </article>
-        <article class="servicios__item col s12 m6 l3">
-          <header class="servicios__item__header">
-            <i class="ion-social-rss"></i>
-          </header>
-          <div class="servicios__item__content">
-            <h3>Creación de Blogs</h3>
-            <p>
-              Te ayudo a crear un espacio en donde puedas compartir sobre lo que
-              más te apasiona.
-            </p>
-          </div>
-        </article>
-        <article class="servicios__item col s12 m6 l3">
-          <header class="servicios__item__header">
-            <i class="ion-bag"></i>
-          </header>
-          <div class="servicios__item__content">
-            <h3>Desarrollo de e-commerce</h3>
-            <p>
-              Te creo el espacio online para que puedas vender tus productos.
-            </p>
-          </div>
-        </article>
-        <article class="servicios__item col s12 m6 l3">
-          <header class="servicios__item__header">
-            <i class="ion-code-working"></i>
-          </header>
-          <div class="servicios__item__content">
-            <h3>Desarrollo de sistemas</h3>
-            <p>Desarrollo aplicaciones web para negocios, empresas, etc.</p>
-          </div>
-        </article>
-
-        <div class="contactame__servicios col s12">
-          <a href="/servicios" class="btn btn-large indigo"
-            >Trabajemos juntos</a
-          >
-        </div>
-      </div>
-    </section>
-
-    <section id="portfolio" class="main__portfolio row indigo">
-      <h2 class="main__servicios__title white-text title__border">
-        Algunos de mis trabajos
-      </h2>
-      <article class="main__portfolio__item card col s12 m6 l4">
-        <figure class="main__portfolio__image card-image">
-          <img
-            src="assets/img/trabajos/wandercoon.jpg"
-            alt="Altos de guataparo"
-          />
-        </figure>
-        <div class="main__portfolio__content card-content">
-          <h3>Wandercoon App</h3>
-        </div>
-        <!--<div class="main__portfolio__action card-action">
           <a
-            class="btn orange darken-2"
-            target="_blank"
-            href="http://www.wandercoon.com"
-            rel="nofollow"
-            >www.wandercoon.com</a
+            href="#contact"
+            class="button button--white button--border button--uppercase"
+            >Contactame</a
           >
-        </div>-->
-      </article>
-    </section>
-
-    <footer class="footer row indigo darken-3 white-text">
-      <div class="footer__column footer__copy col s12 l6">
-        <p>Copyright &copy; 2019 Kildare Lauser.</p>
-        <p>Desarrollador Web - Venezuela</p>
+        </div>
       </div>
-      <div class="footer__column footer__social col s12 l6">
-        <a
-          class="footer__social__links"
-          target="_blank"
-          href="//facebook.com/KildareLauserDev"
-        >
-          <span class="ion-social-facebook"></span>
+      <div class="header__socials">
+        <a href="https://www.facebook.com/KildareLauserDev/" target="_blank">
+          <i class="fa fa-facebook-square fa-2x"></i> 
         </a>
-        <a
-          class="footer__social__links"
-          target="_blank"
-          href="//twitter.com/lauserk"
-        >
-          <span class="ion-social-twitter"></span>
+        <a href="https://www.instagram.com/kildarelauser/" target="_blank">
+          <i class="fa fa-instagram fa-2x"></i>
         </a>
-        <a
-          class="footer__social__links"
-          target="_blank"
-          href="//instagram.com/kildarelauser"
-        >
-          <span class="ion-social-instagram"></span>
+        <a href="https://github.com/LauserK" target="_blank">
+          <i class="fa fa-github fa-2x"></i>
         </a>
-        <a
-          class="footer__social__links"
-          target="_blank"
-          href="//github.com/lauserk"
-        >
-          <span class="ion-social-github"></span>
-        </a>
-        <a
-          class="footer__social__links"
-          target="_blank"
-          href="//linkedin.com/in/lauserk"
-        >
-          <span class="ion-social-linkedin"></span>
-        </a>
+      </div>
+    </header>
+    <section class="aboutme" id="aboutme">
+      <div class="aboutme__content">
+        <figure class="aboutme__image">
+          <img src="./assets/images/cv.jpg" alt="Kildare Lauser" />
+        </figure>
+        <div class="aboutme__description">
+          <h3 class="aboutme__title">Desarrollador Web Venezolano</h3>
+          <p class="aboutme__text">¡Hola!, mi nombre es Kildare Lauser. Soy un desarrollador web apasionado por usar siempre las últimas tecnologías del mercado para hacer de tu sitio el mejor para así alcanzar tus metas. Me encataría trabajar contigo!</p>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <h2 class="services__title--big">Lo que puedo hacer por ti</h2>
+      <div class="services__content">
+        <article class="services__item">
+          <span class="services__icon">
+            <i class="fa fa-code"></i>
+          </span>
+          <h3 class="services__title">
+            Desarrollo Web
+          </h3>
+          <p class="services__text">
+            Me encargo de crear tu sitio para negocios, empresas, comercios, profesionales, usando las últimas tecnologías del mercado.
+          </p>
+        </article>
+        <article class="services__item">
+          <span class="services__icon">
+            <i class="fa fa-rss"></i>
+          </span>
+          <h3 class="services__title">
+            Blogs
+          </h3>
+          <p class="services__text">
+            Te ayudo a crear un espacio en donde puedas compartir sobre lo que más te apasiona.
+          </p>
+        </article>
+        <article class="services__item">
+          <span class="services__icon">
+            <i class="fa fa-shopping-bag"></i>
+          </span>
+          <h3 class="services__title">
+            Tienda virtual (e-commerce)
+          </h3>
+          <p class="services__text">
+            Creo un espacio para que puedas ofrecer tus productos online.
+          </p>
+        </article>
+        <article class="services__item">
+          <span class="services__icon">
+            <i class="fa fa-database"></i>
+          </span>
+          <h3 class="services__title">
+            Desarrollo de sistemas y aplicaciones
+          </h3>
+          <p class="services__text">
+            Desarrollo a medida para tu negocio, empresa, emprendimiento, etc.
+          </p>
+        </article>
+        <article class="services__item">
+          <span class="services__icon">
+            <i class="fa fa-cog"></i>
+          </span>
+          <h3 class="services__title">
+            Soporte y mantenimiento
+          </h3>
+          <p class="services__text">
+            Ofrezco mis servicios como soporte y mantenimiento para asegurarme que tu aplicación siempre esté activo.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section class="showcase" id="showcase">
+      <h2 class="showcase__title--big title-border">Algunos proyectos donde he trabajado</h2>
+      <div class="showcase__content">
+        <article class="showcase__item">
+          <div class="showcase__image" style="background-image: url('./assets/images/crm.jpg')"></div>
+          <div class="showcase__text">
+            <h3 class="showcase__title">CRMConsultoría</h3>
+            <p class="showcase__description">Creación de template para consultora CRM</p>
+          </div>
+        </article>
+        <article class="showcase__item">
+          <div class="showcase__image" style="background-image: url('https://lauserk.github.io/assets/img/trabajos/wandercoon.jpg')"></div>
+          <div class="showcase__text">
+            <h3 class="showcase__title">Wandercoon</h3>
+            <p class="showcase__description">Desarrollo de API para aplicación movil</p>
+          </div>
+        </article>
+        <article class="showcase__item">
+          <div class="showcase__image" style="background-image: url('./assets/images/jesus-paredes.jpg')"></div>
+          <div class="showcase__text">
+            <h3 class="showcase__title">Jesús Paredes</h3>
+            <p class="showcase__description">Creación de portafolio a fotógrafo</p>
+          </div>
+        </article>
+        <article class="showcase__item">
+          <div class="showcase__image" style="background-image: url('./assets/images/photographer-react.jpg')"></div>
+          <div class="showcase__text">
+            <h3 class="showcase__title">Photographer Portfolio</h3>
+            <p class="showcase__description">Creación de portafolio con ReactJS como prueba</p>
+          </div>
+        </article>        
+      </div>
+    </section>
+    <section class="contactme" id="contact">
+      <h2 class="contactme__title">Contacta conmigo</h2>
+      <div class="contactme__content">
+        <div class="contactme__item">
+          <a href="https://www.facebook.com/KildareLauserDev/" target="_blank"><i class="fa fa-facebook fa-2x"></i> Kildare Lauser</a>
+        </div>
+        <div class="contactme__item">
+          <a href="https://github.com/LauserK" target="_blank"><i class="fa fa-github fa-2x"></i> LauserK</a>
+        </div>
+        <div class="contactme__item">
+          <a href="https://www.instagram.com/kildarelauser/" target="_blank"><i class="fa fa-instagram fa-2x"></i> KildareLauser</a>
+        </div>
+        <div class="contactme__item">
+          <a href="https://twitter.com/LauserK" target="_blank"><i class="fa fa-twitter fa-2x"></i> LauserK</a>
+        </div>
+        <div class="contactme__item contactme__item--full">
+          <a href="#"><i class="fa fa-envelope fa-2x"></i> kildarealauser@gmail.com</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div>
+        &copy; Kildare Lauser | Desarrollador Web
+      </div>
+      <div>
+        <a href="mailto:kildarealauser@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x"></i> </a>
+        <a href="https://twitter.com/LauserK" target="_blank"><i class="fa fa-twitter fa-2x"></i> </a>
+        <a href="https://www.instagram.com/kildarelauser/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+        <a href="https://github.com/LauserK" target="_blank"><i class="fa fa-github fa-2x"></i> </a>
+        <a href="https://www.facebook.com/KildareLauserDev/" target="_blank"><i class="fa fa-facebook fa-2x"></i> </a>
       </div>
     </footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src="assets/js/materialize.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="./assets/scripts/bundle.js"></script>
   </body>
 </html>
